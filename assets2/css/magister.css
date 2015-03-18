@@ -1,10 +1,10 @@
 html {
-	background:#505D6E url(../images/body4.jpg) no-repeat center center fixed; 
+	background:#000000 url(../images/background.png) no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 	     -o-background-size: cover;
-	        background-size: cover;
+	        background-size: 50% 100%;
 }
 
 body {
@@ -141,7 +141,8 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	font-family: 'Wire One', Helvetica, Arial, sans-serif;
 	font-weight:normal;
 	font-size:7em;
-	margin-bottom:15px; 
+	margin-top: -150px;
+	margin-bottom:50px; 
 	color:#FDF9F4; 
 	line-height:1em;
 }
@@ -157,7 +158,35 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	font-weight:normal;
 	margin-bottom:75px;
 }
-
+.image {
+	margin-top:340px;
+}
+.media {
+	margin-top:400px;
+}
+.media2 {
+	margin-top:50px;
+}
+.mediacenter {
+	margin-top:50px;
+	margin-left: 80px;
+	margin-right: 20px;
+}
+.mediacenter2 {
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 300px;
+}
+.medialeft {
+	margin-top:50px;
+	margin-left: 20px;
+	margin-right: 80px;
+}
+.mediaright {
+	margin-top: 50px;
+	margin-left: 600px;
+	margin-right: 20px;
+}
 @media (max-width: 767px) {
 	.lead { 
 		font-size:1.3em;
